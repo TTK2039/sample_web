@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="css/anke-to.css">
+</head>
+
+<body>
+    <h1 class="center">アンケート</h1>
+    <div id="qform">
+        <p>Axizの研修をご利用いただき、誠にありがとうございます。<br> 以下の内容の記入および送信をしていただけると幸いです。</p>
+        <form action="result.html">
+            会社名
+            <div class="most">必須</div> <input type="text" name="name" placeholder="例）株式会社テクノコア" class="nagai" required>
+            <p></p>お名前
+            <div class="most">必須</div><br>
+            <input type="text" name="name" placeholder="例）田中太郎" class="nagai" required>
+            <p></p>メールアドレス
+            <input type="text" name="name" placeholder="例)example@axiz.co.jp" class="nagai">
+            <p></p>年齢<br>
+            <input type="number" name="name" class="mizikai">
+            <p></p>受講コース<br>
+            <label><input type="radio" name="course" value="java">java</label>
+            <label><input type="radio" name="course" value="infra">インフラ</label>
+            <p></p>詳しく学びたい内容<br>
+            <label><input type="checkbox" name="name" value="check">ビジネスマナー</label><br>
+            <label><input type="checkbox" name="name" value="check">HTML/CSS</label><br>
+            <label><input type="checkbox" name="name" value="check">JavaScript</label><br>
+            <label><input type="checkbox" name="name" value="check">Java</label><br>
+            <label><input type="checkbox" name="name" value="check">データベース</label><br>
+            <label><input type="checkbox" name="name" value="check">Linux</label><br>
+            <p></p>ご意見<br>
+            <textarea name="free" rows="4" cols="50%" placeholder="自由にご記入ください"></textarea>
+            <button type "submit">送信する</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <div class="center">
+        Copyright(C)Axiz
+    </div>
+</footer>
+
+</html>

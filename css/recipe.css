@@ -1,0 +1,62 @@
+body {
+    background-image: url(../images/bg_Argyle.jpg)
+}
+
+.maintitle {
+    text-align: center;
+    font-size: 3.4rem;
+    font-style: italic;
+    /* letter-spacing: .1em;
+  color: #fff;
+  text-shadow: -4px 3px 0 #fa4141, -8px 6px 0 #000;
+  background-color: #ff236c;
+   */
+}
+
+.tophonbun {
+    text-align: center;
+    background-color: whitesmoke;
+    border: 9px outset red;
+}
+
+.center {
+    text-align: center;
+}
+
+.table {
+    background-color: aliceblue;
+}
+
+.curry {
+    padding: 9px;
+    border: 9px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.abc {
+    display: flex;
+}
+
+#qform {
+    margin: 2em auto;
+    padding: 1em;
+    width: 60%;
+    /*幅の調節*/
+    color: #666666;
+    /*文字色*/
+    background-color: white;
+    /*背景色*/
+    border: 1px solid blue;
+    /*線の太さ・色*/
+    border-radius: 8px;
+    /*角の丸み*/
+    line-height: 40px
+}
+
+label {
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+    /*線の太さ・色*/
+    border-radius: 8px;
+    /*角の丸み*/
+}
